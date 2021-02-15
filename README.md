@@ -1,16 +1,16 @@
-### Meme-Stream
+# Meme-Stream
 Full stack responsive web app created which allows user to create and edit memes.
 
 A responsive meme stream application built usign Django and React framweworks.
 
-Public Deployed URL
+###Public Deployed URL
 
 Frontend
 Backend
 Swagger
 
 
-Tech Stack and Features Implemented
+###Tech Stack and Features Implemented
 Backend Dev : Django Rest Framework (DRF) using POSTGRESQL for DB
 
 Completed all basic the requirements mentioned as well as additional features.
