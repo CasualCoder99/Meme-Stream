@@ -1,0 +1,19 @@
+.save{
+    margin-top: 1%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:center;
+}
+#creation{
+    border: solid black 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+body{
+    background-color: peachpuff;
+}

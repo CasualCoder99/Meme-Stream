@@ -1,0 +1,228 @@
+/* html {
+  font-size: 16px;
+}
+@media screen and (min-width: 320px) {
+  html {
+    font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+  }
+}
+@media screen and (min-width: 1000px) {
+  html {
+    font-size: 22px;
+  }
+} */
+@import url("https://fonts.googleapis.com/css2?family=Asap+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&display=swap");
+* {
+  box-sizing: 0;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Asap Condensed", sans-serif;
+  max-width: 100%;
+  overflow-x: hidden;
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #434343,
+    #000000
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #434343,
+    #000000
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.headd {
+  font-family: "Press Start 2P", cursive;
+  margin-left: 30%;
+  margin-top: 2%;
+  font-size: 4vw;
+  color: honeydew;
+}
+
+#head {
+  margin-left: 15%;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.poster {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  margin-top: 15%;
+}
+
+.subhead {
+  color: honeydew;
+  text-align: center;
+}
+
+.navbar {
+  background: transparent !important;
+}
+
+.navbar-brand {
+  display: flex;
+  overflow-wrap: break-word;
+  align-items: center;
+}
+
+.navbar-brand > h2 {
+  padding-top: 60px;
+  padding-left: 10px;
+}
+
+.header-rounded {
+  max-height: 250px;
+  max-width: 255px;
+}
+
+.header {
+  height: 100px;
+  width: 105px;
+}
+
+.container {
+}
+
+.card-group {
+  display: flex;
+  justify-content: center;
+}
+
+#post-nav {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 10px;
+  background-image: url("http://wallpaper.dog/large/17018319.jpg");
+}
+
+#post-nav > button {
+  margin-left: 20px;
+}
+
+#form-wrapper {
+  position: sticky;
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  top: 0rem;
+}
+
+#submit {
+  background: mediumseagreen;
+  background-color: mediumseagreen;
+  border: mediumseagreen;
+  color: #ffffff;
+}
+
+.flex-wrapper {
+  padding: 5px;
+}
+
+img {
+  width: 100%;
+  height: 150px;
+  object-fit: fill;
+}
+
+#list-wrapper {
+  width: fit-content;
+  height: fit-content;
+  display: inline-flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.meme-head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-outline-danger {
+  background-color: ;
+}
+
+.btn-warning,
+.btn-warning:hover {
+  background-color: transparent !important;
+  columns: #d2fdff !important;
+  border-color: transparent !important;
+  cursor: pointer;
+}
+.btn-warning:hover {
+  opacity: 0.85;
+}
+
+.card {
+  background-color: floralwhite !important ;
+  color: black !important;
+}
+
+.card-img {
+  max-height: 300px;
+  overflow: hidden;
+}
+
+.card:hover {
+  box-shadow: 7px 7px 3px rgba(124, 0, 206, 0.774);
+  transition: all linear 0.25s;
+}
+
+.modal-body {
+  scale: 0.8;
+}
+.modal-body > img {
+  height: auto;
+  width: 100%;
+}
+
+.card-buttons {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.foot {
+  margin-left: 10px;
+  margin-right: 10px;
+  background: pruple !important;
+  color: #d2fdff !important;
+}
+
+.swagger {
+  /* background-image: url("https://logovtor.com/wp-content/uploads/2020/09/swagger-supported-by-smartbear-logo-vector.png"); */
+  background-size: cover;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.footer-div {
+  position: static;
+  bottom: 0;
+  padding-bottom: 50px;
+  margin-top: 20px;
+  padding-top: 10px;
+  background-color: black;
+  padding: 5px;
+  font-family: "Cabin Sketch", cursive;
+}
+
+.rounded-circle {
+  text-align: center;
+  padding-top: 2px;
+  max-height: 110px;
+  max-width: 118px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
