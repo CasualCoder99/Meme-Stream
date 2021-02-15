@@ -9,7 +9,7 @@ https://docs.djangoproject.com/en/3.1/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.1/ref/settings/
 """
-
+import string,random
 from pathlib import Path
 import django_heroku
 
@@ -23,7 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: keep the secret key used in production secret!
 #SECRET_KEY = 'r0t4xw5+uq$+h_%k=oy%4ydr2f7%0!n^1988rjqwv-jlv-tmlc'
 import os
-SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'r0t4xw5+uq$+h_%k=oy%4ydr2f7%0!n^1988rjqwv-jlv-tmlc')
+key= ''.join(random.choices(string.ascii_letters+string.digits,k=50))
+print(str(key))
+SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', key)
 # SECURITY WARNING: don't run with debug turned on in production!
 # DEBUG = True
 DEBUG = 'False'
